@@ -8,7 +8,6 @@ import os
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 CHAT_ID = os.environ.get("CHAT_ID")
 
-
 def get_news():
     url = "https://news.naver.com/section/101"
     headers = {"User-Agent": "Mozilla/5.0"}
